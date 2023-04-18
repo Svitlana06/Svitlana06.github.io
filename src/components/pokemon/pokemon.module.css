@@ -1,0 +1,335 @@
+@media screen and (min-width: 1024px) {
+
+
+    .pokemonList {
+        width: 5500px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .mainPage {
+        border-radius: 100px;
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        background-color: #add0e0;
+        width: 1480px;
+    }
+
+    .sorting {
+        padding-right: 50px;
+        padding-top: 30px;
+        text-align: right;
+        border-radius: 50px;
+    }
+
+    .buttonPage,  .buttonPageHidden{
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        opacity: 0.7;
+        background: black;
+        color: white;
+        margin: 10px;
+    }
+    .buttonPageHidden{
+        visibility: hidden;
+    }
+
+    .buttonsPage {
+        display: flex;
+        justify-content: center;
+    }
+    .PokemonCard {
+        width: 2200px;
+        height: 800px;
+        margin-bottom: 15%;
+        margin-top: 15%;
+        background-color: #dffdf9;
+        border-radius: 50px;
+    }
+
+    .PokemonCardField {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .PokemonCardTop {
+        height: 30%;
+
+        background-color: #98a4a4;
+        margin: 2%;
+        padding-top: 20px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .PokemonCardText, .PokemonCardTextDark {
+        height: 15%;
+        background-color: #98a4a4;
+        margin: 2%;
+        padding-top: 30px;
+        border-radius: 50px;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .PokemonCardText, .PokemonCardButton {
+        color: #98a4a4;
+    }
+
+    .PokemonCardTextDark, .PokemonCardButtonDark {
+        color: #0a0a0a;
+    }
+
+    .PokemonCardButton, .PokemonCardButtonDark {
+        height: 50%;
+        background-color: #98a4a4;
+        margin: 2%;
+        border-radius: 50px;
+        text-align: left;
+        padding: 30px;
+        font-size: 19px;
+    }
+
+    .textCardPokemon {
+        color: #98a4a4;
+    }
+
+    .mainImages {
+        width: 180px;
+        height: 130px;
+        border-radius: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .pokemonList {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 2100px;
+    }
+
+    .mainPage {
+        border-radius: 100px;
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        background-color: #add0e0;
+        width: 950px;
+    }
+
+    .sorting {
+        padding-right: 50px;
+        padding-top: 30px;
+        text-align: right;
+        border-radius: 50px;
+    }
+
+    .buttonPage,  .buttonPageHidden{
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        opacity: 0.7;
+        background: black;
+        color: white;
+        margin: 10px;
+    }
+    .buttonPageHidden{
+        visibility: hidden;
+    }
+
+    .buttonsPage {
+        display: flex;
+        justify-content: center;
+    }
+
+    .PokemonCard {
+        width: 1500px;
+        height: 600px;
+        margin-bottom: 15%;
+        margin-top: 15%;
+        background-color: #dffdf9;
+        border-radius: 50px;
+    }
+
+    .PokemonCardField {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .PokemonCardTop {
+        height: 30%;
+
+        background-color: #98a4a4;
+        margin: 2%;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .PokemonCardText, .PokemonCardTextDark {
+        height: 15%;
+        background-color: #98a4a4;
+        margin: 2%;
+        padding-top: 20px;
+        border-radius: 50px;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .PokemonCardText, .PokemonCardButton {
+        color: #98a4a4;
+    }
+
+    .PokemonCardTextDark, .PokemonCardButtonDark {
+        color: #0a0a0a;
+    }
+
+    .PokemonCardButton, .PokemonCardButtonDark {
+        height: 50%;
+        background-color: #98a4a4;
+        margin: 2%;
+        border-radius: 50px;
+        text-align: left;
+        padding: 30px;
+        font-size: 19px;
+    }
+
+    .textCardPokemon {
+        color: #98a4a4;
+    }
+
+    .mainImages {
+        width: 180px;
+        height: 130px;
+        border-radius: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pokemonList {
+        width: 370px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .mainPage {
+        padding: 1px;
+        display: flex;
+        flex-direction: column;
+        background-color: #add0e0;
+        width: 390px;
+    }
+
+    .sorting {
+    }
+
+    .buttonPage,  .buttonPageHidden{
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        opacity: 0.7;
+        background: black;
+        color: white;
+        margin: 10px;
+    }
+    .buttonPageHidden{
+        visibility: hidden;
+    }
+    .buttonsPage {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .PokemonCard {
+        width: 390px;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15%;
+        margin-top: 15%;
+        background-color: #dffdf9;
+        border-radius: 50px;
+    }
+
+    .PokemonCardField {
+
+    }
+
+    .PokemonCardTop {
+        width: 60px;
+        height: 60px;
+        background-color: #98a4a4;
+        margin-top: 5%;
+        margin-left: 3%;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .PokemonCardText, .PokemonCardTextDark {
+        width: 100px;
+        background-color: #98a4a4;
+        margin: 2%;
+        border-radius: 10px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+        display: flex;
+
+    }
+
+    .PokemonCardText, .PokemonCardButton {
+        color: #98a4a4;
+    }
+
+    .PokemonCardTextDark, .PokemonCardButtonDark {
+        color: #0a0a0a;
+    }
+
+    .PokemonCardButton, .PokemonCardButtonDark {
+        width: 170px;
+        background-color: #98a4a4;
+        margin: 2%;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 7px;
+    }
+
+    .textCardPokemon {
+        color: #98a4a4;
+    }
+
+    .mainImages {
+        display: flex;
+        margin-top: 7px;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        border-radius: 50px;
+        width: 45px;
+        height: 45px;
+    }
+}
+

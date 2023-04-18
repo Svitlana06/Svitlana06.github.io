@@ -1,0 +1,7 @@
+export *from './OnePokemon/OnePokemon'
+export *from './header/header'
+export *from './pokemon/pokemon'
+export *from './layout/main.layout'
+export *from './OnePokemon/typeOnePokemon'
+export *from './OnePokemon/OnePokemonWithType'
+export *from './pagination/pagination'
